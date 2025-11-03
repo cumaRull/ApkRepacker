@@ -3,6 +3,7 @@ apply plugin: 'com.android.library'
 android {
   compileSdkVersion rootProject.ext.compileSdkVersion
   buildToolsVersion rootProject.ext.buildToolsVersion
+  namespace 'com.jaredrummler.android.colorpicker'
 
   resourcePrefix "cpv_"
   defaultConfig {
