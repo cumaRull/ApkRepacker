@@ -3,6 +3,7 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
+    namespace 'com.jecelyin.common'
 
     defaultConfig {
         minSdkVersion rootProject.ext.minSdkVersion
